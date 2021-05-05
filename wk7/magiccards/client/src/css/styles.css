@@ -1,0 +1,158 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    min-width: 900px;
+    padding-left:500px;
+    padding-right:500px;
+}
+
+.auth-container{  
+    box-shadow: 15px 25px 35px grey;
+    border-radius: 25px;
+}
+
+.create-button{
+    background-image: url(./images/bluemana.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:65px;
+    height:65px;
+    color:white
+}
+
+
+.navbar{
+    padding:30px;
+    text-align:left;
+    background-image: url(./images/nav-logo.png);
+    background-position: center;
+    background-size: 200px ;
+    background-repeat: no-repeat;  
+}
+
+.link{
+    margin:10px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.link:hover{
+    font-size:35px;
+    text-decoration: underline;
+    color:black;
+}
+
+.logout{
+    background-image:url(./images/blackmana2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:65px;
+    height:65px;
+    color:white;  
+}
+
+button{
+    border-radius: 50px;
+}
+button:hover{
+    box-shadow: 4px 5px 10px black;
+}
+
+.sign-in-link{
+    color:blue;
+    cursor:pointer;
+}
+.sign-in-link:hover{
+    font-size: 70px;
+    text-decoration: underline;
+    color:red;
+}
+
+.create-acct-link{
+    color:blue;
+    cursor:pointer;
+}
+.create-acct-link:hover{
+    font-size: 70px;
+    text-decoration: underline;
+    color:red; 
+}
+
+.user-form{
+    padding:5px;
+}
+
+.card-form{
+ padding-top:100px;
+}
+.cf-container{
+    background-image:url(./images/card-form-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width:auto;
+}
+
+input{
+    margin:5px;
+    border-radius: 5px;
+    width:100px;
+    text-align: center;
+}
+input:hover{
+    box-shadow: 3px 4px 10px black;
+}
+
+.cf-button{
+    background-image:url(https://i.pinimg.com/originals/ca/17/38/ca17385a5390f4228fbee89d7099a8c3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:65px;
+    height:65px;
+    color: white;
+}
+.cf-button:hover{
+    background-color:red;
+}
+
+.card{
+    border:5px solid black;
+    border-radius: 15px;
+    margin:15px;
+}
+
+.card-name{
+   font-size:60px;
+}
+
+.card-url-image{
+    box-shadow: 15px 25px 35px black;
+    background-color:black;
+}
+
+.card-list{
+font-size: 35px;
+border:5px solid red;
+border-radius: 20px;
+}
+
+.card-page{
+    border:5px solid black;
+    border-radius: 25px;
+}
+.profile h1 {
+    padding:0px;
+    margin: 0px;
+}
+
+.profile h3 {
+    padding:0px;
+    margin: 0px;
+}
